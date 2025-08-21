@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>code shope | منصة شراء سورس كود التطبيقات</title>
+  <meta name="description" content="منصة سهلة وسريعة لشراء سورس كود أي تطبيق، اكتشف الميزات وجرّب الآن." />
+  <link rel="icon" href="../web/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- SVG Definitions -->
+  <svg width="0" height="0" style="position: absolute;">
+    <defs>
+      <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#650ABB;stop-opacity:0.2" />
+        <stop offset="50%" style="stop-color:#8f5bd7;stop-opacity:0.15" />
+        <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:0.1" />
+      </linearGradient>
+      <filter id="glow">
+        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+        <feMerge> 
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="SourceGraphic"/> 
+        </feMerge>
+      </filter>
+    </defs>
+  </svg>
+
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <img src="assets/images/logo1.png" alt="code shope" class="logo" />
+        <span class="brand-name">code shope</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#home">الرئيسية</a>
+        <a href="#features">الميزات</a>
+        <a href="#overview">نظرة عامة</a>
+        <a href="#services">الخدمات</a>
+        <a href="#howto">كيفية الاستخدام</a>
+        <a href="#technical">المميزات التقنية</a>
+        <a href="#download">التحميل</a>
+        <a href="#contact">تواصل</a>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="فتح القائمة">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav">
+      <a href="#home">الرئيسية</a>
+      <a href="#features">الميزات</a>
+      <a href="#overview">نظرة عامة</a>
+      <a href="#services">الخدمات</a>
+      <a href="#howto">كيفية الاستخدام</a>
+      <a href="#technical">المميزات التقنية</a>
+      <a href="#download">التحميل</a>
+      <a href="#contact">تواصل</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero reveal">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>منصة لشراء سورس كود التطبيقات بسهولة</h1>
+          <p>استكشف، جرّب، وامتلك سورس كود التطبيقات بجودة عالية. واجهة عربية بالكامل وألوان متناسقة مع تطبيقك.</p>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="#download">حمّل التطبيق</a>
+            <a class="btn btn-outline" href="#features">استعراض الميزات</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="assets/images/hero-illustration1.png" alt="صورة توضيحية" />
+        </div>
+      </div>
+      <svg class="wave" viewBox="0 0 1440 200" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,96L80,90.7C160,85,320,75,480,96C640,117,800,171,960,186.7C1120,203,1280,181,1360,170.7L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+      </svg>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section container reveal">
+      <header class="section-header">
+        <h2>لماذا code shope؟</h2>
+        <p>كل ما تحتاجه لتحويل فكرتك إلى منتج جاهز.</p>
+      </header>
+      <div class="features-grid">
+        <div class="feature reveal">
+          <div class="icon">🛍️</div>
+          <h3>تجربة تسوّق مرنة</h3>
+          <p>تصنيفات، شبكات عرض، وبحث سريع عن المنتجات/الأكواد.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="icon">⭐</div>
+          <h3>تقييمات وتعليقات</h3>
+          <p>ارفع ثقة العملاء عبر مراجعات حقيقية وتفاعل فعّال.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="icon">🧩</div>
+          <h3>بنية حديثة</h3>
+          <p>Flutter + BLoC + تكامل Supabase لسرعة التطوير.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="icon">🎨</div>
+          <h3>هوية بصرية ثابتة</h3>
+          <p>ألوان الموقع مطابقة لألوان التطبيق لعلامة متناسقة.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- App Overview -->
+    <section id="overview" class="section container reveal">
+      <header class="section-header reveal">
+        <h2>نظرة عامة على التطبيق</h2>
+        <p>تطبيق Code Shope هو منصة تجارة إلكترونية شاملة مصممة لتوفير تجربة تسوق سهلة ومريحة للمستخدمين</p>
+      </header>
+      <div class="overview-content">
+        <div class="overview-card reveal">
+          <div class="card-icon">🎯</div>
+          <h3>الهدف من التطبيق</h3>
+          <ul>
+            <li>توفير منصة تجارة إلكترونية متكاملة وسهلة الاستخدام</li>
+            <li>دعم المطورين بسورس كود جاهز ومرن للتطوير</li>
+            <li>تقديم تجربة مستخدم متميزة عبر جميع المنصات</li>
+            <li>توفير حلول تقنية حديثة ومتطورة</li>
+          </ul>
+        </div>
+        <div class="overview-card reveal">
+          <div class="card-icon">💡</div>
+          <h3>لماذا Code Shope؟</h3>
+          <p>يمكن للمطورين والشركات استخدام هذا التطبيق كأساس لمتاجرهم الإلكترونية أو تخصيصه حسب احتياجاتهم الخاصة. التطبيق مبني بأحدث التقنيات ويوفر كود مصدري نظيف وقابل للتطوير.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screenshots -->
+    <section id="screens" class="section container reveal">
+      <header class="section-header">
+        <h2>لقطات من التطبيق</h2>
+        <p>نظرة سريعة على الواجهات الأساسية.</p>
+      </header>
+      <div class="screens-grid">
+        <img src="assets/images/WhatsApp Image 2025-08-21 at 5.07.30 PM.jpeg" alt="الصفحة الرئيسية" class="reveal" />
+        <img src="assets/images/WhatsApp Image 2025-08-21 at 5.07.48 PM.jpeg" alt="تفاصيل المنتج" class="reveal" />
+        <img src="assets/images/WhatsApp Image 2025-08-21 at 5.07.56 PM.jpeg" alt="سلة التسوق" class="reveal" />
+        <img src="assets/images/WhatsApp Image 2025-08-21 at 5.08.20 PM.jpeg" alt="الملف الشخصي" class="reveal" />
+        <img src="assets/images/WhatsApp Image 2025-08-21 at 5.08.30 PM.jpeg" alt="المفضلة" class="reveal" />
+      </div>
+    </section>
+
+    <!-- Services & Features -->
+    <section id="services" class="section container reveal">
+      <header class="section-header">
+        <h2>الخدمات والمميزات المقدمة</h2>
+        <p>اكتشف جميع الميزات المتقدمة التي يوفرها تطبيق Code Shope</p>
+      </header>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">🛒</div>
+          <h3>تصفح المنتجات</h3>
+          <ul>
+            <li>عرض المنتجات بتصنيفات مختلفة ومنظمة</li>
+            <li>إمكانية البحث السريع والفلترة المتقدمة</li>
+            <li>عرض شبكي وقائمة للمنتجات</li>
+            <li>تصنيفات متنوعة (ملابس، إكسسوارات، أحذية، إلخ)</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">📱</div>
+          <h3>تفاصيل المنتج</h3>
+          <ul>
+            <li>صفحات تفصيلية شاملة لكل منتج</li>
+            <li>عرض صور متعددة بجودة عالية</li>
+            <li>أوصاف مفصلة للمنتجات</li>
+            <li>خيارات الألوان والمقاسات المتاحة</li>
+            <li>عرض الأسعار والعروض الخاصة</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🛍️</div>
+          <h3>نظام السلة</h3>
+          <ul>
+            <li>إضافة المنتجات للسلة بسهولة</li>
+            <li>إدارة كميات المنتجات</li>
+            <li>حساب إجمالي التكلفة تلقائياً</li>
+            <li>حفظ السلة للمراجعة لاحقاً</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">❤️</div>
+          <h3>المفضلة</h3>
+          <ul>
+            <li>حفظ المنتجات المفضلة</li>
+            <li>إدارة قائمة الرغبات</li>
+            <li>مراجعة المنتجات المحفوظة</li>
+            <li>إشعارات عند توفر المنتجات</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">⭐</div>
+          <h3>التقييمات والمراجعات</h3>
+          <ul>
+            <li>نظام تقييم بالنجوم</li>
+            <li>كتابة تعليقات ومراجعات</li>
+            <li>عرض آراء المستخدمين الآخرين</li>
+            <li>تصفية المراجعات حسب التقييم</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">👤</div>
+          <h3>حساب المستخدم</h3>
+          <ul>
+            <li>إدارة الملف الشخصي</li>
+            <li>تتبع الطلبات والمشتريات</li>
+            <li>إدارة عناوين التوصيل</li>
+            <li>سجل المعاملات والفواتير</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download -->
+    <section id="download" class="section container reveal">
+      <header class="section-header">
+        <h2>التحميل</h2>
+        <p>اختر منصتك المفضلة لبدء الاستخدام.</p>
+      </header>
+      <div class="download-grid">
+        <div class="card reveal">
+          <h3>Android</h3>
+          <p>APK/AAB إصدار مستقر</p>
+          <a class="btn btn-primary" href="assets/images/app-release.apk" download="app-release.apk">حمّل APK</a>
+        </div>
+        <div class="card reveal">
+          <h3>iOS</h3>
+          <p>App Store/TestFlight</p>
+          <a class="btn btn-primary" href="#" aria-disabled="true">قريباً</a>
+        </div>
+        <div class="card reveal">
+          <h3>Web</h3>
+          <p>نسخة ويب مستضافة</p>
+          <a class="btn btn-primary" href="#" aria-disabled="true">قريباً</a>
+        </div>
+        <div class="card reveal">
+          <h3>Desktop</h3>
+          <p>Windows / macOS / Linux</p>
+          <a class="btn btn-primary" href="#" aria-disabled="true">قريباً</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Use -->
+    <section id="howto" class="section container reveal">
+      <header class="section-header">
+        <h2>كيفية استخدام التطبيق</h2>
+        <p>دليل شامل لاستخدام جميع ميزات التطبيق خطوة بخطوة</p>
+      </header>
+      <div class="steps-container">
+        <div class="step-card reveal">
+          <div class="step-number">1</div>
+          <h3>التسجيل والدخول</h3>
+          <ul>
+            <li>ابدأ بإنشاء حساب جديد باستخدام البريد الإلكتروني</li>
+            <li>أو سجل الدخول إذا كان لديك حساب مسبق</li>
+            <li>يمكنك أيضاً استخدام حساب Google للدخول السريع</li>
+            <li>أكمل بيانات الملف الشخصي</li>
+          </ul>
+        </div>
+        <div class="step-card reveal">
+          <div class="step-number">2</div>
+          <h3>تصفح المنتجات</h3>
+          <ul>
+            <li>استعرض المنتجات من الصفحة الرئيسية</li>
+            <li>تصفح حسب التصنيفات المختلفة</li>
+            <li>استخدم البحث للعثور على منتجات محددة</li>
+            <li>طبق الفلاتر لتضييق نتائج البحث</li>
+          </ul>
+        </div>
+        <div class="step-card reveal">
+          <div class="step-number">3</div>
+          <h3>عرض تفاصيل المنتج</h3>
+          <ul>
+            <li>اضغط على أي منتج لعرض تفاصيله الكاملة</li>
+            <li>شاهد الصور والأوصاف والأسعار</li>
+            <li>اقرأ المراجعات والتقييمات</li>
+            <li>اختر اللون والمقاس المناسب</li>
+          </ul>
+        </div>
+        <div class="step-card reveal">
+          <div class="step-number">4</div>
+          <h3>إضافة للسلة أو المفضلة</h3>
+          <ul>
+            <li>أضف المنتجات التي تعجبك إلى السلة للشراء</li>
+            <li>أو أضفها إلى المفضلة للمراجعة لاحقاً</li>
+            <li>حدد الكمية المطلوبة</li>
+            <li>راجع إجمالي التكلفة</li>
+          </ul>
+        </div>
+        <div class="step-card reveal">
+          <div class="step-number">5</div>
+          <h3>إتمام الطلب</h3>
+          <ul>
+            <li>راجع سلة التسوق والمنتجات المختارة</li>
+            <li>أدخل عنوان التوصيل</li>
+            <li>اختر طريقة الدفع المناسبة</li>
+            <li>أتمم عملية الشراء وتتبع حالة الطلب</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Features -->
+    <section id="technical" class="section container reveal">
+      <header class="section-header">
+        <h2>المميزات التقنية</h2>
+        <p>تقنيات حديثة ومتطورة لضمان أفضل أداء وتجربة مستخدم</p>
+      </header>
+      <div class="tech-grid">
+        <div class="tech-card reveal">
+          <div class="tech-icon">📱</div>
+          <h3>متعدد المنصات</h3>
+          <ul>
+            <li>يعمل على Android بكفاءة عالية</li>
+            <li>متوافق مع iOS (iPhone/iPad)</li>
+            <li>نسخة ويب للمتصفحات</li>
+            <li>تطبيق سطح المكتب لـ Windows</li>
+            <li>دعم macOS و Linux</li>
+            <li>نفس الكود يعمل على جميع المنصات</li>
+          </ul>
+        </div>
+        <div class="tech-card reveal">
+          <div class="tech-icon">⚡</div>
+          <h3>إدارة الحالة المتقدمة</h3>
+          <ul>
+            <li>استخدام BLoC pattern لإدارة الحالة</li>
+            <li>أداء سريع ومستقر</li>
+            <li>إدارة فعالة للذاكرة</li>
+            <li>تحديثات فورية للواجهة</li>
+          </ul>
+        </div>
+        <div class="tech-card reveal">
+          <div class="tech-icon">🔗</div>
+          <h3>تكامل API</h3>
+          <ul>
+            <li>اتصال سلس مع Supabase</li>
+            <li>إدارة البيانات في الوقت الفعلي</li>
+            <li>نظام مصادقة آمن</li>
+            <li>تخزين سحابي للصور والملفات</li>
+          </ul>
+        </div>
+        <div class="tech-card reveal">
+          <div class="tech-icon">🎨</div>
+          <h3>تصميم متجاوب</h3>
+          <ul>
+            <li>واجهة تتكيف مع جميع أحجام الشاشات</li>
+            <li>تصميم حديث وجذاب</li>
+            <li>ألوان متناسقة ومريحة للعين</li>
+            <li>تجربة مستخدم سلسة</li>
+          </ul>
+        </div>
+        <div class="tech-card reveal">
+          <div class="tech-icon">🔒</div>
+          <h3>الأمان والخصوصية</h3>
+          <ul>
+            <li>تشفير البيانات الحساسة</li>
+            <li>حماية معلومات المستخدمين</li>
+            <li>نظام مصادقة متعدد المستويات</li>
+            <li>حماية من الهجمات الإلكترونية</li>
+          </ul>
+        </div>
+        <div class="tech-card reveal">
+          <div class="tech-icon">🛠️</div>
+          <h3>التقنيات المستخدمة</h3>
+          <ul>
+            <li>Flutter: إطار العمل الأساسي</li>
+            <li>Dart: لغة البرمجة المستخدمة</li>
+            <li>BLoC: لإدارة حالة التطبيق</li>
+            <li>Supabase: قاعدة البيانات السحابية</li>
+            <li>Dio: للاتصال بالـ APIs</li>
+            <li>Easy Localization: لدعم متعدد اللغات</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- System Requirements & Support -->
+    <section id="requirements" class="section container reveal">
+      <header class="section-header">
+        <h2>متطلبات النظام والدعم</h2>
+        <p>تأكد من توافق جهازك واحصل على الدعم المطلوب</p>
+      </header>
+      <div class="requirements-grid">
+        <div class="req-card reveal">
+          <div class="req-icon">💻</div>
+          <h3>متطلبات النظام</h3>
+          <ul>
+            <li>Android 5.0 أو أحدث</li>
+            <li>iOS 11.0 أو أحدث</li>
+            <li>متصفح ويب حديث</li>
+            <li>Windows 10 أو أحدث</li>
+            <li>macOS 10.14 أو أحدث</li>
+            <li>Linux (Ubuntu 18.04 أو أحدث)</li>
+          </ul>
+        </div>
+        <div class="req-card reveal">
+          <div class="req-icon">🆘</div>
+          <h3>الدعم والمساعدة</h3>
+          <ul>
+            <li>دعم فني متاح 24/7</li>
+            <li>دليل المستخدم الشامل</li>
+            <li>فيديوهات تعليمية</li>
+            <li>منتدى المجتمع للمطورين</li>
+            <li>تحديثات دورية ومستمرة</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container reveal">
+      <header class="section-header">
+        <h2>تواصل معنا</h2>
+        <p>نحن هنا لمساعدتك! تواصل معنا </p>
+      </header>
+
+      <div class="contact-form-section reveal">
+        <h3>أرسل لنا رسالة</h3>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <input type="text" id="fullName" placeholder="الاسم الكامل" required>
+            <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+          </div>
+          <input type="text" id="subject" placeholder="الموضوع" required>
+          <textarea id="message" placeholder="اكتب رسالتك هنا..." rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary" id="submitBtn">إرسال الرسالة</button>
+        </form>
+        <div id="formMessage" class="form-message" style="display: none;"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container foot">
+      <span>© <span id="year"></span> code shope. جميع الحقوق محفوظة.</span>
+      <div class="socials">
+        <a href="#" aria-label="X">𝕏</a>
+        <a href="#" aria-label="GitHub">⚡</a>
+        <a href="#" aria-label="YouTube">▶</a>
+      </div>
+    </div>
+    <div class="developer-credit-footer">
+      <span>Developed by Eng Ahmed Saad</span>
+    </div>
+  </footer>
+
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init({
+        publicKey: "ysslK4C8sGo4pNhOX", // سيتم استبدالها بالمفتاح الحقيقي
+      });
+    })();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
